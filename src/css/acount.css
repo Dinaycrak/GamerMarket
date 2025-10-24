@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: #fff;
+}
+
+.title {
+  position: relative;
+  top: 100px;
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+  margin-bottom: 100px;
+}
+
+.main-footer {
+  position: relative;
+  top: 100px;
+  background-color: black;
+}
+
+.text-contact {
+    color: rgb(0, 255, 8);
+}
+
+.footer-right{
+  position: relative;
+  top: 100px;
+}
+
+.direcciones {
+  color: black;
+  background-color: turquoise;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.direcciones:hover {
+  background-color: #00cfcf; 
+}

@@ -1,0 +1,50 @@
+
+body {
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.speed-sidebar h2 {
+  font-size: 28px;
+  color: turquoise;
+}
+
+.speed-sidebar .btn {
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-title {
+  font-weight: bold;
+  color: skyblue;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.chat-button {
+  font-weight: bold;
+  border-radius: 50px;
+  color: black;
+  background-color: turquoise;
+  transition: transform 0.3s ease;
+}
+
+.chat-button:hover {
+  transform: scale(1.05);
+  background-color: aqua;
+  color: white;
+}
+.text-coment {
+    background-color: black;
+    color: red;
+}
