@@ -1,0 +1,56 @@
+
+body {
+  background-color: #0a0a0a;
+}
+
+.login-section {
+  color: #000;
+}
+
+.form-box h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.chat-button {
+  font-weight: bold;
+  border-radius: 50px;
+  color: black;
+  background-color: turquoise;
+  transition: transform 0.3s ease;
+}
+
+.chat-button:hover {
+  transform: scale(1.05);
+  background-color: aqua;
+  color: white;
+}
+.title {
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+  margin-bottom: 100px;
+}
+
+p {
+    background-color: black;
+    color: white;
+}
+
+.text-contact {
+    color: rgb(0, 255, 8);
+}
+
+.btn-colors {
+    color: white;
+    background-color: rgb(0, 255, 8);
+}
+
+.form-box h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: limegreen; /* más visible que negro */
+  margin-bottom: 30px;
+}

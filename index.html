@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="inicio" content="width=device-width, initial-scale=1.0" />
+  <title>GamerMarket</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./src/css/header.css" />
+  <link rel="stylesheet" href="./src/css/inicio.css" />
+  <script src="./src/scripts/index.js"> </script>
+</head>
+<body>
+<header class="main-header">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <a class="navbar-brand d-flex align-items-center" href="./index.html">
+        <img src="./src/images/logo.jpg" alt="Logo GamerMarket" width="40" height="40" class="me-2" />
+        <span class="fw-bold text-danger">GamerMarket</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link activate" href="./index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="./src/pages/register.html">Register</a></li>
+          <li class="nav-item"><a class="nav-link" href="./src/pages/login.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="./src/pages/products.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="./src/pages/users.html">Users</a></li>
+          <li class="nav-item"><a class="nav-link" href="./src/pages/acount.html">Cuenta</a></li>
+          <li class="nav-item"><a class="nav-link" href="./src/pages/about.html">about</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <section class="hero text-center text-white d-flex flex-column justify-content-center align-items-center">
+    <h1 class="logo-title">GamerMarket</h1> 
+    <p class="welcome-text">
+      Bienvenido GamerMarket a la tienda de productos gamer como consolas, laptops, pc de mesa y repuestos.
+    </p>
+  </section>
+
+  <section class="brands text-center py-5">
+    <div class="container">
+      <h2 class="brands-title">Top Gaming Brands</h2>
+      <p class="brands-description">
+        GamerMarket colabora con marcas reconocidas para ofrecerte los mejores productos de gaming. Desde consolas hasta accesorios, nuestra selección garantiza calidad y rendimiento en los que los gamers pueden confiar.
+      </p>
+      <div class="row justify-content-center">
+        <div class="col-4 col-md-2"><img src="./src/images/inicio/icono1.png" class="img-fluid" alt="mtvs.news" /></div>
+        <div class="col-4 col-md-2"><img src="./src/images/inicio/icono2.png" class="img-fluid" alt="SKRIPTON" /></div>
+        <div class="col-4 col-md-2"><img src="./src/images/inicio/icono3.png" class="img-fluid" alt="energator" /></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery text-center py-5">
+    <div class="container">
+      <h2 class="gallery-title">Síguenos</h2>
+      <div class="row">
+        <div class="col-6 col-md-3"><img src="./src/images/inicio/logo1.jpg" class="img-fluid rounded" alt="Controles gamer" /></div>
+        <div class="col-6 col-md-3"><img src="./src/images/inicio/logo2.jpg" class="img-fluid rounded" alt="Ciudad futurista" /></div>
+        <div class="col-6 col-md-3"><img src="./src/images/inicio/logo3.jpg" class="img-fluid rounded" alt="Explosión sci-fi" /></div>
+        <div class="col-6 col-md-3"><img src="./src/images/inicio/logo4.jpg" class="img-fluid rounded" alt="Robot cibernético" /></div>
+      </div> 
+      <br>
+      <div id="load-more" class="row  load-more">
+        <div class="col-6 col-md-3"><img src="./src/images/inicio/logo5.jpg" class="img-fluid rounded" alt="Paisaje Juego" /></div>
+        <div class="col-6 col-md-3"><img src="./src/images/inicio/logo6.jpg" class="img-fluid rounded" alt="Chico Con Pistola" /></div>
+        <div class="col-6 col-md-3"><img src="./src/images/inicio/logo7.jpg" class="img-fluid rounded" alt="Persecucion" /></div>
+        <div class="col-6 col-md-3"><img src="./src/images/inicio/logo8.jpg" class="img-fluid rounded" alt="Control" /></div>
+      </div> 
+      <br>
+      <button class="btn-load btn btn-info mt-4" onclick="mostrarMas()">Load More</button>
+    </div>
+  </section>
+
+  <footer class= "main-footer", class="main-footer bg-dark text-white py-5">
+    <div class="container d-flex flex-wrap justify-content-between">
+      <div class="footer-left col-md-5">
+        <h3 class="title">GamerMarket</h3>
+        <h3 class="text-contact">Connect with Us</h3>
+        <form>
+          <input type="email" class="form-control mb-2" placeholder="Email*" required />
+          <div class="form-check mb-2">
+            <input type="checkbox" class="form-check-input" id="subscribeCheck" />
+            <label class="form-check-label" for="subscribeCheck">Yes, subscribe me to your newsletter.</label>
+          </div>
+          <button type="submit" class="btn btn-light">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer-right col-md-6">
+        <p>📞 3134559229</p>
+        <p>📧 dinaykerl9@gmail.com</p>
+        <p>📍 Barranquilla, Atlántico, Colombia</p>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Accessibility Statement</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Shipping Policy</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Terms & Conditions</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Refund Policy</a></li>
+        </ul>
+        <div class="d-flex gap-2 mt-2">
+          <a href="#"><img src="./src/images/redes_sociales/facebook.png" alt="Facebook" width="24" /></a>
+          <a href="#"><img src="./src/images/redes_sociales/twitter.png" alt="Twitter" width="24" /></a>
+          <a href="#"><img src="./src/images/redes_sociales/instagram.png" alt="Instagram" width="24" /></a>
+          <a href="#"><img src="./src/images/redes_sociales/youtube.png" alt="YouTube" width="24" /></a>
+        </div>
+        <p class="mt-3">© 2023 by GamerMarket</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="chat-button chat-btn:hover btn btn-info position-fixed bottom-0 end-0 m-4">Let's Chat!</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

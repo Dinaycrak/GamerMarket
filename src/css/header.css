@@ -1,0 +1,42 @@
+.main-header {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  background-color: black;
+
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  background-color: black;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: black;
+}
+
+.nav-link:hover {
+  color: turquoise !important;
+  background-color: black;
+
+}
+
+.nav-link.active {
+  color: turquoise !important;
+  background-color: black;
+
+}
+
+.nav-link.activate {
+  color: turquoise !important;
+  background-color: black;
+
+}
+
+.bi-cart {
+  font-size: 20px;
+  margin-right: 5px;
+  color: turquoise;
+}

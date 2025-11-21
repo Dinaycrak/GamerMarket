@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: #fff;
+}
+
+.title-about {
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    background-color: black;
+    color: red;
+}
+
+.title-about p{
+    background-color: black;
+    color: blue;
+}
+
+.title {
+  position: relative;
+  top: 100px;
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+  margin-bottom: 100px;
+}
+
+.main-footer {
+  position: relative;
+  top: 100px;
+  background-color: black;
+}
+
+.text-contact {
+    color: rgb(0, 255, 8);
+}
+
+.footer-right{
+  position: relative;
+  top: 100px;
+}

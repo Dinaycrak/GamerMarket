@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  color: #fff;
+}
+
+
+.hero {
+  background-image: url('../images/inicio/laptop_hero.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding: 60px 20px;
+}
+
+.logo-title {
+  position: relative;
+  margin-top: 200px;
+  font-size: 48px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.welcome-text {
+  position: relative;
+  margin-top: 120px;
+  font-size: 18px;
+  max-width: 600px;
+  color: blue;
+}
+
+.brands-title {
+  margin-top: 50px;
+  font-size: 32px;
+  color: limegreen;
+}
+
+.brands-descriptions {
+  color: blue;
+}
+
+.gallery-title {
+  font-size: 32px;
+  color: red;
+}
+
+.chat-button {
+  font-weight: bold;
+  border-radius: 50px;
+  color: black;
+  background-color: turquoise;
+  transition: transform 0.3s ease;
+
+}
+
+.chat-button:hover {
+  transform: scale(1.05);
+  background-color: aqua;
+  color: white;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+  margin-bottom: 100px;
+}
+
+.main-footer {
+  background-color: black;
+}
+
+.btn-load {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.text-contact {
+    color: rgb(0, 255, 8);
+}
+
+.load-more {
+  display: none;
+  gap: 1rem;
+}
